@@ -2,16 +2,14 @@ package com.simplepaymentapi.domain.transaction;
 
 import com.simplepaymentapi.domain.user.User;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Entity(name = "transactions")
 @Table(name = "transactions")
+@NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
